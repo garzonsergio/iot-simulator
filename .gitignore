@@ -1,0 +1,42 @@
+# Certificados y claves de seguridad
+/certs/
+*.pem
+*.crt
+*.key
+*.cer
+
+# Archivos de entorno y configuración
+.env
+*.env
+.env.local
+.env.*.local
+
+# Archivos de Docker
+.docker/
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+
+# Archivos temporales
+tmp/
+*.tmp
+.cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+._*
+
+# Directorios de dependencias (si agregases Node.js u otros)
+node_modules/
+venv/
+__pycache__/
+*.py[cod]
+
+# Archivos de IDE/editores
+.idea/
+.vscode/
+*.swp
+*.swo

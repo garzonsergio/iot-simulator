@@ -1,0 +1,7 @@
+services:
+  iot-simulator:
+    build: .
+    environment:
+      - AWS_IOT_ENDPOINT=avfxg190sxpeb-ats.iot.us-east-2.amazonaws.com # Reemplaza con tu endpoint
+    volumes:
+      - ./certs:/app/certs:ro  # Monta certificados en modo solo lectura
