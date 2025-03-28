@@ -29,7 +29,7 @@ This project simulates an IoT weather station device that periodically sends tem
 2. Clone the repository:
 
    ```bash
-   git clone https://your-repository-url/iot-simulator.git
+   git clone https://github.com/garzonsergio/iot-simulator
    cd iot-simulator
    ```
 
@@ -54,7 +54,7 @@ This project simulates an IoT weather station device that periodically sends tem
 2. Clone the repository:
 
    ```bash
-   git clone https://your-repository-url/iot-simulator.git
+   git clone https://github.com/garzonsergio/iot-simulator
    cd iot-simulator
    ```
 

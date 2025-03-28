@@ -7,7 +7,7 @@ CERT_FILE="/app/certs/device.cert.pem"
 KEY_FILE="/app/certs/device.private.key"
 
 # Messages count
-MAX_MESSAGES=10
+MAX_MESSAGES=1
 COUNT=1
 
 while [ $COUNT -le $MAX_MESSAGES ]; do
